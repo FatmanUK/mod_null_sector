@@ -1,0 +1,86 @@
+---
+title: 'Null Sector'
+speed: 6
+bpm: 132
+orderList:
+  - 0x00
+  - 0x01
+  - 0x02
+  - 0x03
+  - 0x04
+  - 0x05
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x00
+  - 0x01
+  - 0x02
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x03
+  - 0x04
+  - 0x05
+  - 0x00
+  - 0x01
+  - 0x02
+  - 0x03
+  - 0x04
+  - 0x05
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x06
+  - 0x07
+  - 0x08
+  - 0x09
+  - 0x0A
+  - 0x0B
+instruments:
+  - id: 0x01
+    source: 'st01'
+    name: 'ST-01/BassDrum2'
+    volume: 0x35
+    finetune: 0x0
+  - id: 0x02
+    source: 'st01'
+    name: 'ST-01/PopSnare2'
+    volume: 0x28
+    finetune: 0x0
+  - id: 0x03
+    source: 'st02'
+    name: 'ST-02/HiHat3'
+    volume: 0x1E
+    finetune: 0x0
+  - id: 0x04
+    source: 'st01'
+    name: 'ST-01/TuneBass'
+    volume: 0x33
+    finetune: 0x0
+  - id: 0x05
+    source: 'st01'
+    name: 'ST-01/ExBells'
+    volume: 0x2C
+    finetune: 0x0
+  - id: 0x06
+    source: 'st01'
+    name: 'ST-01/KorgFilter'
+    volume: 0x1B
+    finetune: 0x0
+  - id: 0x07
+    source: 'st01'
+    name: 'ST-01/WoodBlock'
+    volume: 0x22
+    finetune: 0x0
+  - id: 0x08
+    source: 'st02'
+    name: 'ST-02/Cymbal2'
+    volume: 0x19
+    finetune: 0x0
+  - id: 0x09
+    source: 'st01'
+    name: 'ST-01/SynClaves'
+    volume: 0x1B
+    finetune: 0x0
+...
+# vim: set filetype=yaml
